@@ -877,14 +877,10 @@
               <input type="email" name="email" placeholder="Your Email" required class="input-field">
               <input type="text" name="subject" placeholder="Subject" required class="input-field">
               <textarea name="message" placeholder="Your Message" class="input-field"></textarea>
-              <button type="submit" class="btn btn-primary">Send Now</button>
+              <button type="submit" class="btn btn-primary" onclick="setTimeout(function(){ document.getElementById('contactForm').reset(); }, 10);">Send Now</button>
           </form>
           <div id="responseMessage" style="display: none;">Thank you for your response!</div>
           
-        
-      
-          
-
             <ul class="contact-card">
 
               <li>
